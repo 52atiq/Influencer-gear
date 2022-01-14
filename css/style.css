@@ -1,0 +1,15 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+   display: flex;
+}
+
+/*  header and image section css */
+.header-section{
+    width: 50%;
+}
+.image-section img{
+    width: 50%;
+}
