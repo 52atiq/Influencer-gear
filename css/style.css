@@ -11,7 +11,7 @@ main{
 }
 .container{
    display: flex;
-   width: 1200px;
+   width: 1000px;
  
 }
 
@@ -51,7 +51,36 @@ main{
 }
 
 /* populer section  */
+.collection-header{
+    text-align: center;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.item{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
 .banner img{
     width: 300px;
     height: 200px;
+}
+.item-name{
+    font-size: 30px;
+}
+.price{
+    font-size: 25px;
+}
+.review {
+    color: yellow;
+}
+.review-measure{
+    margin-left: 5px;
+    color: black;
+}
+.item-details{
+    font-size: 18px;
 }
