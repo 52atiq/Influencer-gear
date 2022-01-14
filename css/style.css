@@ -1,17 +1,18 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: wheat;
 }
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .container{
    display: flex;
-   width: 980px;
-  justify-content: center;
-  margin-left: 150px;
+   width: 1200px;
+ 
 }
 
 /*  header and image section css */
@@ -19,14 +20,38 @@ main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 94px;
-   border: 2px solid red;
+   
 }
 .header-section {
     
 }
 .image-section img{
+    padding: 60px 0px 0px 20px;
     width: 500px;
 }
 .header-title{
-    font-size: 30px;
+    font-size: 36px;
+    margin-bottom: 1px;
+}
+.header-details{
+    margin-top: 1px;
+  padding-bottom: 9px;
+    font-weight: 600;
+
+}
+.button-link{
+    padding: 10px;
+    color: white;
+    background-color: rgb(211, 20, 36);
+    text-decoration: none;
+    border-radius: 20px;
+}
+.button-link  {
+    
+}
+
+/* populer section  */
+.banner img{
+    width: 300px;
+    height: 200px;
 }
