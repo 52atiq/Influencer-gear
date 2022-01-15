@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: wheat;
+    /* background-color: wheat; */
 }
 main{
     display: flex;
@@ -12,6 +12,7 @@ main{
 .container{
    display: flex;
    width: 1000px;
+   justify-content: center;
  
 }
 
@@ -19,7 +20,7 @@ main{
 .top-header {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 94px;
+    grid-column-gap: 60px;
    
 }
 .header-section {
@@ -35,19 +36,26 @@ main{
 }
 .header-details{
     margin-top: 1px;
-  padding-bottom: 9px;
-    font-weight: 600;
+    padding-bottom: 9px;
+    font-weight: 400;
+   text-align: justify;
 
 }
 .button-link{
     padding: 10px;
     color: white;
-    background-color: rgb(211, 20, 36);
+    background-color: rgba(187, 8, 62, 0.925);
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 100px;
+    font: 400;
+   
 }
-.button-link  {
-    
+.button-link:hover {
+    background-color: rgba(238, 12, 61, 0.925);
+    font-size: 20px;
+}
+.button-link span {
+    margin-left: 9px;
 }
 
 /* populer section  */
@@ -57,6 +65,7 @@ main{
 .items{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+
 }
 .item{
     background-color: white;
@@ -83,4 +92,36 @@ main{
 }
 .item-details{
     font-size: 18px;
+}
+.see-button-link {
+ margin: 15px 0px 20px 970px; 
+}
+.see-button-link a{
+    text-decoration: none;
+}
+.see-button-link span {
+    margin: 5px;
+}
+footer{
+    text-align: center;
+    background-color: #13023d;
+    padding: 20px;
+}
+.influencer-product-right{
+    padding: 20px;
+}
+.influencer-product-right h3{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 6px; 
+}
+.influencer-product-right p{
+    margin-top: 5px;
+    color: white;
+    font-size: 12px;
+     margin: 4px;
+}
+.fab{
+    margin: 10px;
+    color: white;
 }
