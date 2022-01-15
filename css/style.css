@@ -23,9 +23,7 @@ main{
     grid-column-gap: 60px;
    
 }
-.header-section {
-    
-}
+
 .image-section img{
     padding: 60px 0px 0px 20px;
     width: 500px;
@@ -51,8 +49,8 @@ main{
    
 }
 .button-link:hover {
-    background-color: #47327e;
-    font-size: 20px;
+    /* background-color: #47327e;
+    font-size: 20px; */
 }
 .button-link span {
     margin-left: 9px;
@@ -104,7 +102,84 @@ main{
 .see-button-link span {
     margin: 5px;
 }
+
+/* blog section css  */
+.flex-container{
+  margin-left: 100px;
+   width: 1200px;
+}
+.blog-section{
+    display: flex;
+    width: 1124px;
+    margin-bottom: 50px;
+   
+}
+article{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.article-one{
+    border-right: 2px solid rgb(240, 230, 230);
+    padding: 5px;
+}
+.article-two {
+    border-right: 2px solid rgb(240, 230, 230);
+  
+}
+
+.article-one, .article-two{
+    display: flex;
+    padding: 9px;
+}
+.article-banner img{
+    width: 150px;
+    height: 200px;
+}
+.article-info{
+    margin-left: 15px;
+}
+.article-header {
+    margin-top: 0;
+    font-size: 20px;
+}
+.article-details{
+    font-size: 15px;
+    text-align: justify;
+}
+aside{
+   margin-left: 25px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.blog-one, .blog-two{
+  border-bottom: 2px solid rgb(240, 230, 230);
+}
+.blog-one img, .blog-two img{
+   
+    width: 400px;
+    height: 100px;
+
+   
+}
+.blog-one a ,p, .blog-two a,p{
+    margin-top: 1px;
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+}
+.blog-header{
+    text-align: center;
+    margin-bottom: 1px;
+}
+.blog-details{
+    font-size: 15px;
+    margin-top: 1px;
+    text-align: justify;
+}
+
+/* footer section css  */
 footer{
+    margin-top: 50px;
     text-align: center;
     background-color: #13023d;
     padding: 20px;
